@@ -1,0 +1,187 @@
+﻿<Window x:Class="HW15WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW15WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentReader x:Name="docReader" Grid.ColumnSpan="2" >
+            <FlowDocument>
+
+                <Paragraph>
+                    <Floater Width="250" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data\12.jpg" />
+                        </BlockUIContainer>
+                    </Floater>
+                    Описание рецепта — Шашлык с луком – самый правильный армянский классический рецепт:
+                </Paragraph>
+                <Paragraph>
+                    Данный
+                    <Hyperlink NavigateUri="https://www.patee.ru/recipes/barbecues/view/?id=1440126">рецепт</Hyperlink> порекомендовал повар из армянского ресторана, с его слов это самый правильный шашлык.
+
+Конечно в шашлыке самое главное это мясо! Выбор мяса это целая наука, поделюсь моими секретами. Я готовлю шашлык из свинины (если вам не нравится свинина или непозволительно по религиозным соображениям, можно взять другое желаемое мясо), мясо я обычно покупаю на рынке, лучше у знакомого продавца (в магазинах брать не советую – часто попадается наколотое водой, мало того что дурят на деньги, так и мясо вместо жарки начинает варится изнутри ).
+
+Мясо обычно лежит без холодильника, это гарантия свежести ( иначе оно воняло бы ), мясо должно быть мягким, при надавливании пальцем ямка должна быстро затягиваться, предпочтение лучше отдать свиной шейке (так же хорошо подоёдет корейка), боятся белого рыхлого жирка не стоит (такой жир стапливается), мясо лучше выбирать посветлее (оно помоложе), не стесняйтесь понюхать, покрутить в руках. В среднем на 3 едаков нужно около 2 кило мяса (именно мяса а не маринованного шашлыка).
+                </Paragraph>
+                <Paragraph>
+                    Шашлык с луком – самый правильный армянский классический рецепт: состав, калорийность и пищевая ценность на 100 г
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            Белки 11,5 г
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Жиры 7,16 г
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Углеводы 5,67 г
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            КИЛОКАЛОРИЙ: 136
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Section FontSize="14">
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0.5*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="2*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>Шаг 1:</Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Свиная шейка 2 кг
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Итак, начинаем готовить! Мясо нарезаем небольшими кубиками (размером с детский кулачок или крупное куриное яйцо), различные жилы или плёночки удаляем, нам они не к чему!
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>Шаг 2:</Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Лук репчатый 500 г
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Следующий по значимости ингридиент это всем хорошо знакомый репчатый лук! красный или белый лук лучше не брать (эксперементировали много раз ведёт он себя неоднозначно), обычный репчатый подходит лучше ! режем лук в произвольом порядке (кольцами, полукользами, кубиками, шинкуем – КАК ХОТИТЕ) . Главное правило лука должно быть 1 к 1 к весу мяса! 2 кило мяса – 2 кило лука! лук высыпаем в глубокую ёмкость (кастрюля , таз), и мнём что есть мощи, жимкаем руками (нам нужен сок).
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>Шаг 3:</Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Перец черный молотый 4 г
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Добваляем наше нарезаное мясо к луку и снова жимкаем , разминаем мясо и лук как тесто! Перчим мелко молотым чёрным перцем (лучше из мини мельницы), перца не жалейте.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>Шаг 4:</Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Вода газированная 1 л
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Далее нам потребуется один стакан минеральной воды , воду выбирайте на свой вкус , только не берите воду типа аква минерале или бон аква , нужна настоящая минеральная природная вода ! хорошо из популярных брендов подходят ессентуки , боржоми , нарзан . ( ну и если вы армянин то конечно BJNI) .
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>Шаг 5:</Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Соль 10 г
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Всё хорошенько вымешиваем , накрываем тарелкой меньшей по диаметру кастрюли или таза , на верх ставим гнёт ( камень от засолки или банку с водой ) . оставляем на 12 часов ( на ночь ) , можно обойтись и 2 часами , можно растянуть на сутки . если время мало , оставляйте при комнатной температуре , если 12 часов есть в запасе то в холодильник .
+                                    СОЛЬ !!! тут есть несколько фундаментальных мнений ! одни утрерждаую что солить нужно сырое мясо , ибо так оно лучше просаливается внутри . другие утрверждают что солить нужно готовое мясо , ибо соль в маринаде отрицательно сказывается на мяггкости мяса … у меня альтернативный вариант , я солю маринад , за 10-15 минут ДО ЗАПЕКАНИЯ !!! на данную порцию 2-3 чайных ложки .
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 6:
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Петрушка 5 г
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Немного о углях , угли должны хорошо занятся , быть жаркими , но готовить рановато , надо выждать паузу – угли должны “поседеть” , появится небольшая золистая белая пыльца , вот теперь самое время !!
+Насаживаем мясо на шампуры ( не стоит оставлять кусочки лука или подсажывать к мясу овощи – всё это сгорит и мясо будет горчить ) . Жарить следует только с друх сторон , не надо мясо обжаривать по кругу ! если выбор пал на свинину то на хороших углях , свинина готовится быстро , хорошо рарумянили с одной стороны , хорошо с другой , 10-15 минут туда сюда и готово !!! не высушивайте мясо !!! в нём должен быть сок , только не красный , светло жёлтый ( как масло растительное ) . снимаем мясо и обсыпаем нарезаной зеленью ( на ваш вкус )
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                </Section>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text = "Нажми, если понравился рецепт"/>
+                        <Button Content="Like"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentReader>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="75" Click="Button_Click_1"/>
+            <Button Content="Сохранить" Width="75" Click="Button_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
